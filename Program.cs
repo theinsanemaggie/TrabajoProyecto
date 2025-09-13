@@ -42,7 +42,9 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization();
 
 // DB helper
-builder.Services.AddSingleton<Db>();
+builder.Services.AddSingleton<ClubDb>();
+builder.Services.AddSingleton<DirigenteDb>();
+builder.Services.AddSingleton<SocioDb>();
 
 // Swagger
 builder.Services.AddEndpointsApiExplorer();
@@ -78,5 +80,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
 
 app.Run();

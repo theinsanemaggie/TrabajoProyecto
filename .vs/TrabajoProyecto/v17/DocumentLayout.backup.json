@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\models\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:models\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\querybdd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:querybdd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\models\\dirigente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:models\\dirigente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\models\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:models\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\models\\authmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:models\\authmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\controllers\\sociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:controllers\\sociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\controllers\\dirigentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:controllers\\dirigentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\data\\sociodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:data\\sociodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\data\\clubdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:data\\clubdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\data\\dirigentedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:data\\dirigentedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\querybdd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:querybdd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,58 +50,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Socio.cs",
-              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Models\\Socio.cs",
-              "RelativeDocumentMoniker": "Models\\Socio.cs",
-              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Models\\Socio.cs",
-              "RelativeToolTip": "Models\\Socio.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T20:30:41.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dirigente.cs",
-              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Models\\Dirigente.cs",
-              "RelativeDocumentMoniker": "Models\\Dirigente.cs",
-              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Models\\Dirigente.cs",
-              "RelativeToolTip": "Models\\Dirigente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T20:30:16.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Club.cs",
-              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Models\\Club.cs",
-              "RelativeDocumentMoniker": "Models\\Club.cs",
-              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Models\\Club.cs",
-              "RelativeToolTip": "Models\\Club.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T20:29:14.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T20:27:30.699Z",
+              "Title": "QueryBDD.sql ",
+              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\QueryBDD.sql",
+              "RelativeDocumentMoniker": "QueryBDD.sql",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\QueryBDD.sql",
+              "RelativeToolTip": "QueryBDD.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-13T00:37:17.3Z",
               "EditorCaption": ""
             },
             {
@@ -94,29 +70,100 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAkwDkAAABUAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SocioController.cs",
+              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\SocioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SocioController.cs",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\SocioController.cs",
+              "RelativeToolTip": "Controllers\\SocioController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwHQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T16:57:04.031Z",
+              "WhenOpened": "2025-09-13T00:19:57.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DirigenteController.cs",
+              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\DirigenteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DirigenteController.cs",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\DirigenteController.cs",
+              "RelativeToolTip": "Controllers\\DirigenteController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAiwHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T00:19:56.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClubController.cs",
+              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\ClubController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClubController.cs",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\ClubController.cs",
+              "RelativeToolTip": "Controllers\\ClubController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T00:19:42.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-12T23:57:21.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthModels.cs",
-              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Models\\AuthModels.cs",
-              "RelativeDocumentMoniker": "Models\\AuthModels.cs",
-              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Models\\AuthModels.cs",
-              "RelativeToolTip": "Models\\AuthModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T16:12:15.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T20:59:18.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DirigenteDb.cs",
+              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\DirigenteDb.cs",
+              "RelativeDocumentMoniker": "Data\\DirigenteDb.cs",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\DirigenteDb.cs",
+              "RelativeToolTip": "Data\\DirigenteDb.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAswH8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T21:08:50.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClubDb.cs",
+              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\ClubDb.cs",
+              "RelativeDocumentMoniker": "Data\\ClubDb.cs",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\ClubDb.cs",
+              "RelativeToolTip": "Data\\ClubDb.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwFAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T21:08:09.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SocioDb.cs",
+              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\SocioDb.cs",
+              "RelativeDocumentMoniker": "Data\\SocioDb.cs",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\SocioDb.cs",
+              "RelativeToolTip": "Data\\SocioDb.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswIQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T21:14:20.684Z"
             }
           ]
         }

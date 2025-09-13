@@ -26,6 +26,243 @@
     ]
   },
   {
+    "ContainingType": "TrabajoProyecto.Controllers.ClubController",
+    "Method": "GetAll",
+    "RelativePath": "api/Club",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.ClubController",
+    "Method": "Add",
+    "RelativePath": "api/Club",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "c",
+        "Type": "TrabajoProyecto.Models.Club",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.ClubController",
+    "Method": "Get",
+    "RelativePath": "api/Club/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.ClubController",
+    "Method": "Update",
+    "RelativePath": "api/Club/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "c",
+        "Type": "TrabajoProyecto.Models.Club",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.ClubController",
+    "Method": "Delete",
+    "RelativePath": "api/Club/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.DirigenteController",
+    "Method": "GetAll",
+    "RelativePath": "api/Dirigente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.DirigenteController",
+    "Method": "Add",
+    "RelativePath": "api/Dirigente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "d",
+        "Type": "TrabajoProyecto.Models.Dirigente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.DirigenteController",
+    "Method": "Get",
+    "RelativePath": "api/Dirigente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.DirigenteController",
+    "Method": "Update",
+    "RelativePath": "api/Dirigente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "d",
+        "Type": "TrabajoProyecto.Models.Dirigente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.DirigenteController",
+    "Method": "Delete",
+    "RelativePath": "api/Dirigente/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.SocioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Socio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.SocioController",
+    "Method": "Add",
+    "RelativePath": "api/Socio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "s",
+        "Type": "TrabajoProyecto.Models.Socio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.SocioController",
+    "Method": "Get",
+    "RelativePath": "api/Socio/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.SocioController",
+    "Method": "Update",
+    "RelativePath": "api/Socio/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "s",
+        "Type": "TrabajoProyecto.Models.Socio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrabajoProyecto.Controllers.SocioController",
+    "Method": "Delete",
+    "RelativePath": "api/Socio/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TrabajoProyecto.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
