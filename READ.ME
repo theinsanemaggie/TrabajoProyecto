@@ -1,0 +1,51 @@
+﻿# Trabajo Práctico — Web API en .NET Core “Gestión de Clubes, Dirigentes y Socios”
+### Objetivo: Desarrollar una Web API en .NET Core que gestione entidades de Club, Dirigente y Socio con endpoints GET, POST y PUT, y un mecanismo de login (autenticación con token). El foco está en aplicar buenas prácticas de diseño de APIs REST, validaciones y persistencia en base de datos.
+
+## Entregables
+
+### Requisitos Técnicos (mínimos)
+- .NET 7 u 8 (Web API). (Evitar usar net 9)
+- Swagger/OpenAPI habilitado. (por defecto se habilita al crear el proyecto tipo WEBAPI)
+- ORM: ADO.NET
+- BD: SQL Server (o LocalDB). Se provee script en Anexo A.
+- Autenticación: Login que emite un token (JWT y protege los endpoints de modificación (POST/PUT). Los GET pueden ser públicos, aunque se recomienda protegerlos de todos modos..
+- Nota: se proveen las clases base sugeridas y el esquema SQL con claves primarias/foráneas. Pueden agregar propiedades técnicas (por ejemplo Id, ClubId) para persistencia/relaciones.
+
+### Modelos (de referencia)
+- De acuerdo a lo provisto, los modelos funcionales incluyen:
+- Club - nombre: string - cantidadSocios: int - cantidadTitulos: int - fechaFundacion: DateTime - ubicacionEstadio: string - nombreEstadio: string
+- Dirigente - nombre: string - apellido: string - fechaNacimiento: DateTime - rol: string - dni: int
+- Socio - nombre: string - apellido: string - fechaNacimiento: DateTime - fechaAsociado: DateTime - dni: int - cantidadAsistencias: int
+- Recomendación para persistencia: agregar ClubId en Dirigente y Socio para relacionarlos con Club; y agregar Id técnico (clave primaria) en las tres entidades.
+
+### Especificación de la API
+- Rutas y Operaciones
+- Usar prefijo /api.
+- Clubes
+- GET /api/clubes → lista todos.
+- GET /api/clubes/{id} → obtiene por id.
+- POST /api/clubes (requiere login) → crea un club.
+- PUT /api/clubes/{id} (requiere login) → actualiza datos del club.
+
+### Reglas y Validaciones mínimas
+- dni único en Dirigentes y en Socios (no duplicados dentro de cada tabla).
+- cantidadSocios y cantidadTitulos ≥ 0.
+- cantidadAsistencias ≥ 0.
+- fechaFundacion no puede ser futura.
+- En Socio: fechaAsociado ≥ fechaNacimiento.
+- En Dirigente/Socio: clubId debe existir en Club.
+- 400 BadRequest ante datos inválidos; 404 NotFound si no existe el recurso; 201 Created al crear; 204 NoContent o 200 OK al actualizar.
+- Autenticación (Login)
+- Endpoint sugerido: POST /api/auth/login con cuerpo { "username": "...", "password": "..." }.
+- Respuesta exitosa: { "token": "<JWT/Token>" } + expiración.
+- Proteger con [Authorize] (o equivalente) los POST/PUT de las 3 entidades.
+- Pueden mockear credenciales en memoria (por ejemplo: admin / Admin123!) o implementar tabla Usuarios (opcional). Se evaluará que el token sea validado antes de permitir cambios.
+
+### Criterios de Evaluación
+- Correctitud de endpoints (rutas, verbos, códigos de estado, validaciones).
+- Diseño: separación por capas/servicios.
+- Seguridad: login funcional, protección de endpoints, manejo básico de contraseñas/tokens.
+- Pruebas: Swagger claro y, si es posible, pruebas manuales automapeadas (colección Postman).
+- Calidad: código limpio, README claro, convenciones REST.
+- Bonus (opcionales): - Filtros/paginación en GET (?q=, ?page=, ?pageSize=). - Borrado lógico (IsActive) en lugar de DELETE. - Validaciones con FluentValidation. - Mapeos con AutoMapper.
+

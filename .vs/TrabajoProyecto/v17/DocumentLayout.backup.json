@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\jsontest\\club.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:jsontest\\club.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\bdd\\querybdd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:bdd\\querybdd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\data\\clubdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:data\\clubdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\jsontest\\socios.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -27,26 +47,6 @@
       "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:controllers\\dirigentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\jsontest\\club.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:jsontest\\club.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\data\\clubdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:data\\clubdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\bdd\\querybdd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:bdd\\querybdd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Socios.json",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\JsonTest\\Socios.json",
               "RelativeDocumentMoniker": "JsonTest\\Socios.json",
-              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\JsonTest\\Socios.json*",
-              "RelativeToolTip": "JsonTest\\Socios.json*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\JsonTest\\Socios.json",
+              "RelativeToolTip": "JsonTest\\Socios.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-13T03:45:08.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "QueryBDD.sql ",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Bdd\\QueryBDD.sql",
               "RelativeDocumentMoniker": "Bdd\\QueryBDD.sql",
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Dirigente.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Models\\Dirigente.cs",
               "RelativeDocumentMoniker": "Models\\Dirigente.cs",
@@ -99,25 +99,24 @@
               "RelativeToolTip": "Models\\Dirigente.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAYwBUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T02:23:03.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T02:23:03.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "DirigenteDb.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\DirigenteDb.cs",
               "RelativeDocumentMoniker": "Data\\DirigenteDb.cs",
-              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\DirigenteDb.cs*",
-              "RelativeToolTip": "Data\\DirigenteDb.cs*",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAYwEMAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\DirigenteDb.cs",
+              "RelativeToolTip": "Data\\DirigenteDb.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAA3wGIAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T02:17:55.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "SocioController.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\SocioController.cs",
               "RelativeDocumentMoniker": "Controllers\\SocioController.cs",
@@ -125,12 +124,11 @@
               "RelativeToolTip": "Controllers\\SocioController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswHcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T02:15:17.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T02:15:17.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "DirigenteController.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\DirigenteController.cs",
               "RelativeDocumentMoniker": "Controllers\\DirigenteController.cs",
@@ -138,51 +136,50 @@
               "RelativeToolTip": "Controllers\\DirigenteController.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAiwHcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T02:13:09.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T02:13:09.12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ClubController.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\ClubController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClubController.cs",
               "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\ClubController.cs",
               "RelativeToolTip": "Controllers\\ClubController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAgwHcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwHcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T02:03:23.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "ClubDb.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\ClubDb.cs",
               "RelativeDocumentMoniker": "Data\\ClubDb.cs",
               "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\ClubDb.cs",
               "RelativeToolTip": "Data\\ClubDb.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAgwKEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwDsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T01:36:54.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-13T01:15:12.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -195,13 +192,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Club.json",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\JsonTest\\Club.json",
               "RelativeDocumentMoniker": "JsonTest\\Club.json",
               "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\JsonTest\\Club.json",
               "RelativeToolTip": "JsonTest\\Club.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-13T00:56:37.694Z",
               "EditorCaption": ""
