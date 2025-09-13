@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\read.me||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:read.me||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\jsontest\\club.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:jsontest\\club.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "READ.ME",
+              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\READ.ME",
+              "RelativeDocumentMoniker": "READ.ME",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\READ.ME",
+              "RelativeToolTip": "READ.ME",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-13T04:20:42.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Socios.json",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\JsonTest\\Socios.json",
               "RelativeDocumentMoniker": "JsonTest\\Socios.json",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "QueryBDD.sql ",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Bdd\\QueryBDD.sql",
               "RelativeDocumentMoniker": "Bdd\\QueryBDD.sql",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Dirigente.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Models\\Dirigente.cs",
               "RelativeDocumentMoniker": "Models\\Dirigente.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DirigenteDb.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\DirigenteDb.cs",
               "RelativeDocumentMoniker": "Data\\DirigenteDb.cs",
@@ -116,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SocioController.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\SocioController.cs",
               "RelativeDocumentMoniker": "Controllers\\SocioController.cs",
@@ -128,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DirigenteController.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\DirigenteController.cs",
               "RelativeDocumentMoniker": "Controllers\\DirigenteController.cs",
@@ -140,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ClubController.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\ClubController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClubController.cs",
@@ -153,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ClubDb.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Data\\ClubDb.cs",
               "RelativeDocumentMoniker": "Data\\ClubDb.cs",
@@ -166,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -179,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -192,13 +209,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Club.json",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\JsonTest\\Club.json",
               "RelativeDocumentMoniker": "JsonTest\\Club.json",
               "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\JsonTest\\Club.json",
               "RelativeToolTip": "JsonTest\\Club.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-13T00:56:37.694Z",
               "EditorCaption": ""

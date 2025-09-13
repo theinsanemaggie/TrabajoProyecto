@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\read.me||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:read.me||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\jsontest\\club.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -49,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\controllers\\dirigentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:controllers\\dirigentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|c:\\users\\magal\\source\\repos\\trabajoproyecto\\bdd\\querybdd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{BE2ECF01-BBF0-4F12-A925-F2FB0A6E9DC9}|TrabajoProyecto.csproj|solutionrelative:bdd\\querybdd.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,14 +67,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "READ.ME",
-              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\READ.ME",
-              "RelativeDocumentMoniker": "READ.ME",
-              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\READ.ME",
-              "RelativeToolTip": "READ.ME",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-13T04:20:42.367Z",
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-09-13T04:29:32.69Z",
               "EditorCaption": ""
             },
             {
@@ -97,14 +93,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "QueryBDD.sql ",
+              "Title": "QueryBDD.sql",
               "DocumentMoniker": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Bdd\\QueryBDD.sql",
               "RelativeDocumentMoniker": "Bdd\\QueryBDD.sql",
               "ToolTip": "C:\\Users\\magal\\source\\repos\\TrabajoProyecto\\Bdd\\QueryBDD.sql",
               "RelativeToolTip": "Bdd\\QueryBDD.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-09-13T02:24:03.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T02:24:03.11Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "Data\\DirigenteDb.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAA3wGIAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T02:17:55.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T02:17:55.699Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "Controllers\\ClubController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAgwHcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T02:03:23.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T02:03:23.301Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "Data\\ClubDb.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAQwDsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T01:36:54.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T01:36:54.24Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-13T01:15:12.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T01:15:12.307Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAiwDIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T01:03:33.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T01:03:33.11Z"
             },
             {
               "$type": "Document",
@@ -217,8 +207,7 @@
               "RelativeToolTip": "JsonTest\\Club.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-13T00:56:37.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T00:56:37.694Z"
             }
           ]
         }
