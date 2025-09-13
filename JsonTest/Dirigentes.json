@@ -1,0 +1,47 @@
+﻿[
+  {
+    "dirigenteId": 1,
+    "clubId": 1,
+    "nombre": "Rodolfo",
+    "apellido": "D'Onofrio",
+    "fechaNacimiento": "1949-04-16T00:00:00Z",
+    "rol": "Presidente",
+    "dni": 12345678
+  },
+  {
+    "dirigenteId": 2,
+    "clubId": 2,
+    "nombre": "Jorge Amor",
+    "apellido": "Ameal",
+    "fechaNacimiento": "1948-12-16T00:00:00Z",
+    "rol": "Presidente",
+    "dni": 23456789
+  },
+  {
+    "dirigenteId": 3,
+    "clubId": 3,
+    "nombre": "Víctor",
+    "apellido": "Blanco",
+    "fechaNacimiento": "1954-05-18T00:00:00Z",
+    "rol": "Presidente",
+    "dni": 34567890
+  },
+  {
+    "dirigenteId": 4,
+    "clubId": 4,
+    "nombre": "Hugo",
+    "apellido": "Moyano",
+    "fechaNacimiento": "1944-01-09T00:00:00Z",
+    "rol": "Presidente",
+    "dni": 45678901
+  },
+  {
+    "dirigenteId": 5,
+    "clubId": 5,
+    "nombre": "Horacio",
+    "apellido": "Arreceygor",
+    "fechaNacimiento": "1960-07-22T00:00:00Z",
+    "rol": "Presidente",
+    "dni": 56789012
+  }
+]

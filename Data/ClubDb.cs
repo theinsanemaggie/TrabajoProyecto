@@ -1,5 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 using TrabajoProyecto.Models;
+using System.Data;
 
 namespace TrabajoProyecto.Data
 {
@@ -33,7 +34,12 @@ namespace TrabajoProyecto.Data
                     list.Add(new Club
                     {
                         ClubId = reader.GetInt32(reader.GetOrdinal("ClubId")),
-                        Nombre = reader.GetString(reader.GetOrdinal("Nombre"))
+                        Nombre = reader.GetString(reader.GetOrdinal("Nombre")),
+                        CantidadSocios = reader.GetInt32(reader.GetOrdinal("CantidadSocios")),
+                        CantidadTitulos = reader.GetInt32(reader.GetOrdinal("CantidadTitulos")),
+                        FechaFundacion = reader.GetDateTime(reader.GetOrdinal("FechaFundacion")),
+                        UbicacionEstadio = reader.IsDBNull(reader.GetOrdinal("UbicacionEstadio")) ? null : reader.GetString(reader.GetOrdinal("UbicacionEstadio")),
+                        NombreEstadio = reader.IsDBNull(reader.GetOrdinal("NombreEstadio")) ? null : reader.GetString(reader.GetOrdinal("NombreEstadio"))
                     });
                 }
             }
@@ -52,7 +58,7 @@ namespace TrabajoProyecto.Data
             {
                 await using var conn = await GetConnectionAsync();
                 await using var cmd = new SqlCommand("SELECT * FROM Clubes WHERE ClubId=@id", conn);
-                cmd.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
+                cmd.Parameters.Add("@id", SqlDbType.Int).Value = id;
                 await using var reader = await cmd.ExecuteReaderAsync();
 
                 if (await reader.ReadAsync())
@@ -60,7 +66,12 @@ namespace TrabajoProyecto.Data
                     club = new Club
                     {
                         ClubId = reader.GetInt32(reader.GetOrdinal("ClubId")),
-                        Nombre = reader.GetString(reader.GetOrdinal("Nombre"))
+                        Nombre = reader.GetString(reader.GetOrdinal("Nombre")),
+                        CantidadSocios = reader.GetInt32(reader.GetOrdinal("CantidadSocios")),
+                        CantidadTitulos = reader.GetInt32(reader.GetOrdinal("CantidadTitulos")),
+                        FechaFundacion = reader.GetDateTime(reader.GetOrdinal("FechaFundacion")),
+                        UbicacionEstadio = reader.IsDBNull(reader.GetOrdinal("UbicacionEstadio")) ? null : reader.GetString(reader.GetOrdinal("UbicacionEstadio")),
+                        NombreEstadio = reader.IsDBNull(reader.GetOrdinal("NombreEstadio")) ? null : reader.GetString(reader.GetOrdinal("NombreEstadio"))
                     };
                 }
             }
@@ -77,8 +88,17 @@ namespace TrabajoProyecto.Data
             try
             {
                 await using var conn = await GetConnectionAsync();
-                await using var cmd = new SqlCommand("INSERT INTO Clubes (Nombre) VALUES (@Nombre)", conn);
-                cmd.Parameters.Add("@Nombre", System.Data.SqlDbType.NVarChar, 80).Value = club.Nombre;
+                var query = @"
+                    INSERT INTO Clubes (Nombre, CantidadSocios, CantidadTitulos, FechaFundacion, UbicacionEstadio, NombreEstadio)
+                    VALUES (@Nombre, @CantidadSocios, @CantidadTitulos, @FechaFundacion, @UbicacionEstadio, @NombreEstadio)";
+
+                await using var cmd = new SqlCommand(query, conn);
+                cmd.Parameters.Add("@Nombre", SqlDbType.NVarChar, 100).Value = club.Nombre;
+                cmd.Parameters.Add("@CantidadSocios", SqlDbType.Int).Value = club.CantidadSocios;
+                cmd.Parameters.Add("@CantidadTitulos", SqlDbType.Int).Value = club.CantidadTitulos;
+                cmd.Parameters.Add("@FechaFundacion", SqlDbType.DateTime2).Value = club.FechaFundacion;
+                cmd.Parameters.Add("@UbicacionEstadio", SqlDbType.NVarChar, 150).Value = (object)club.UbicacionEstadio ?? DBNull.Value;
+                cmd.Parameters.Add("@NombreEstadio", SqlDbType.NVarChar, 120).Value = (object)club.NombreEstadio ?? DBNull.Value;
 
                 await cmd.ExecuteNonQueryAsync();
             }
@@ -94,9 +114,24 @@ namespace TrabajoProyecto.Data
             try
             {
                 await using var conn = await GetConnectionAsync();
-                await using var cmd = new SqlCommand("UPDATE Clubes SET Nombre=@Nombre WHERE ClubId=@id", conn);
-                cmd.Parameters.Add("@Nombre", System.Data.SqlDbType.NVarChar, 80).Value = club.Nombre;
-                cmd.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
+                var query = @"
+                    UPDATE Clubes
+                    SET Nombre = @Nombre,
+                        CantidadSocios = @CantidadSocios,
+                        CantidadTitulos = @CantidadTitulos,
+                        FechaFundacion = @FechaFundacion,
+                        UbicacionEstadio = @UbicacionEstadio,
+                        NombreEstadio = @NombreEstadio
+                    WHERE ClubId = @id";
+
+                await using var cmd = new SqlCommand(query, conn);
+                cmd.Parameters.Add("@Nombre", SqlDbType.NVarChar, 100).Value = club.Nombre;
+                cmd.Parameters.Add("@CantidadSocios", SqlDbType.Int).Value = club.CantidadSocios;
+                cmd.Parameters.Add("@CantidadTitulos", SqlDbType.Int).Value = club.CantidadTitulos;
+                cmd.Parameters.Add("@FechaFundacion", SqlDbType.DateTime2).Value = club.FechaFundacion;
+                cmd.Parameters.Add("@UbicacionEstadio", SqlDbType.NVarChar, 150).Value = (object)club.UbicacionEstadio ?? DBNull.Value;
+                cmd.Parameters.Add("@NombreEstadio", SqlDbType.NVarChar, 120).Value = (object)club.NombreEstadio ?? DBNull.Value;
+                cmd.Parameters.Add("@id", SqlDbType.Int).Value = id;
 
                 await cmd.ExecuteNonQueryAsync();
             }
@@ -113,7 +148,7 @@ namespace TrabajoProyecto.Data
             {
                 await using var conn = await GetConnectionAsync();
                 await using var cmd = new SqlCommand("DELETE FROM Clubes WHERE ClubId=@id", conn);
-                cmd.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
+                cmd.Parameters.Add("@id", SqlDbType.Int).Value = id;
 
                 await cmd.ExecuteNonQueryAsync();
             }

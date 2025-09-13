@@ -24,7 +24,7 @@ CREATE TABLE Dirigentes (
     Apellido NVARCHAR(80) NOT NULL,
     FechaNacimiento DATETIME2 NOT NULL,
     Rol NVARCHAR(80) NOT NULL,
-    Dni BIGINT NOT NULL,
+    Dni INT NOT NULL,
     FOREIGN KEY (ClubId) REFERENCES Clubes(ClubId) ON DELETE CASCADE
 );
 GO
@@ -37,7 +37,7 @@ CREATE TABLE Socios (
     Apellido NVARCHAR(80) NOT NULL,
     FechaNacimiento DATETIME2 NOT NULL,
     FechaAsociado DATETIME2 NOT NULL,
-    Dni BIGINT NOT NULL,
+    Dni INT NOT NULL,
     CantidadAsistencias INT NOT NULL DEFAULT 0,
     FOREIGN KEY (ClubId) REFERENCES Clubes(ClubId) ON DELETE CASCADE
 );

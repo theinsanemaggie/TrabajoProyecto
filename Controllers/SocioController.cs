@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TrabajoProyecto.Data;
 using TrabajoProyecto.Models;
 
@@ -6,6 +7,7 @@ namespace TrabajoProyecto.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class SocioController : ControllerBase
     {
         private readonly SocioDb _db;
@@ -72,7 +74,8 @@ namespace TrabajoProyecto.Controllers
         {
             try
             {
-                if (s == null || id != s.SocioId)
+                // The fix is here. You only need to check if the body is null.
+                if (s == null)
                 {
                     return BadRequest("Datos de socio inválidos.");
                 }

@@ -5,7 +5,6 @@ using System.Security.Claims;
 using System.Text;
 using TrabajoProyecto.Models;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace TrabajoProyecto.Controllers
 {
@@ -22,14 +21,14 @@ namespace TrabajoProyecto.Controllers
         }
 
         [HttpPost("login")]
-        public ActionResult<LoginResponse> Login([FromBody]LoginRequest req)
+        public ActionResult<LoginResponse> Login([FromBody] LoginRequest req)
         {
             var validUser = _config["DemoUser:Username"];
             var validPass = _config["DemoUser:Password"];
 
-            if(req.Username != validUser || req.Password != validPass)
+            if (req.Username != validUser || req.Password != validPass)
             {
-                return Unauthorized(new {message="Credenciales incorrectas"});
+                return Unauthorized(new { message = "Credenciales incorrectas" });
             }
 
             //claims → afirmaciones o declaraciones, dato sobre la identidad de un usuario que viaja en el interior del token
@@ -49,13 +48,13 @@ namespace TrabajoProyecto.Controllers
                 issuer: _config["Jwt:Issuer"],
                 audience: _config["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(1),
+                expires: DateTime.UtcNow.AddMinutes(5),
                 signingCredentials: creds
             );
 
             var jwt = new JwtSecurityTokenHandler().WriteToken(token);
 
-            return Ok(new LoginResponse{Token = jwt, ExpiresAtUtc = token.ValidTo});
+            return Ok(new LoginResponse { Token = jwt, ExpiresAtUtc = token.ValidTo });
         }
     }
 }

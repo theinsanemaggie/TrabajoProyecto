@@ -1,0 +1,52 @@
+[
+  {
+    "socioId": 1,
+    "clubId": 1,
+    "nombre": "Lionel",
+    "apellido": "Messi",
+    "fechaNacimiento": "1987-06-24T00:00:00Z",
+    "fechaAsociado": "2023-01-01T00:00:00Z",
+    "dni": 12345678,
+    "cantidadAsistencias": 10
+  },
+  {
+    "socioId": 2,
+    "clubId": 2,
+    "nombre": "Diego",
+    "apellido": "Maradona",
+    "fechaNacimiento": "1960-10-30T00:00:00Z",
+    "fechaAsociado": "2023-02-15T00:00:00Z",
+    "dni": 23456789,
+    "cantidadAsistencias": 15
+  },
+  {
+    "socioId": 3,
+    "clubId": 3,
+    "nombre": "Carlos",
+    "apellido": "Tevez",
+    "fechaNacimiento": "1984-02-05T00:00:00Z",
+    "fechaAsociado": "2023-03-20T00:00:00Z",
+    "dni": 34567890,
+    "cantidadAsistencias": 20
+  },
+  {
+    "socioId": 4,
+    "clubId": 4,
+    "nombre": "Sergio",
+    "apellido": "Aguero",
+    "fechaNacimiento": "1988-06-02T00:00:00Z",
+    "fechaAsociado": "2023-04-10T00:00:00Z",
+    "dni": 45678901,
+    "cantidadAsistencias": 5
+  },
+  {
+    "socioId": 5,
+    "clubId": 5,
+    "nombre": "Gonzalo",
+    "apellido": "Higuain",
+    "fechaNacimiento": "1987-12-10T00:00:00Z",
+    "fechaAsociado": "2023-05-25T00:00:00Z",
+    "dni": 56789012,
+    "cantidadAsistencias": 8
+  }
+]

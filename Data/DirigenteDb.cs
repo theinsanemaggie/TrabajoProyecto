@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.SqlClient;
+using System.Data;
 using TrabajoProyecto.Models;
 
 namespace TrabajoProyecto.Data
@@ -52,17 +53,17 @@ namespace TrabajoProyecto.Data
 
         public async Task<Dirigente?> GetByIdAsync(int id)
         {
-            Dirigente? d = null;
+            Dirigente? dirigente = null;
             try
             {
                 await using var conn = await GetConnectionAsync();
                 await using var cmd = new SqlCommand("SELECT * FROM Dirigentes WHERE DirigenteId=@id", conn);
-                cmd.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
+                cmd.Parameters.Add("@id", SqlDbType.Int).Value = id;
                 await using var reader = await cmd.ExecuteReaderAsync();
 
                 if (await reader.ReadAsync())
                 {
-                    d = new Dirigente
+                    dirigente = new Dirigente
                     {
                         DirigenteId = reader.GetInt32(reader.GetOrdinal("DirigenteId")),
                         ClubId = reader.GetInt32(reader.GetOrdinal("ClubId")),
@@ -74,12 +75,18 @@ namespace TrabajoProyecto.Data
                     };
                 }
             }
+            catch (InvalidCastException ex)
+            {
+                // Add a breakpoint here to find out exactly which column is the problem
+                Console.WriteLine($"Error de conversión de tipo en GetByIdAsync: {ex.Message}");
+                throw;
+            }
             catch (SqlException ex)
             {
                 Console.WriteLine($"Error de base de datos en GetByIdAsync: {ex.Message}");
                 throw;
             }
-            return d;
+            return dirigente;
         }
 
         public async Task AddAsync(Dirigente dirigente)

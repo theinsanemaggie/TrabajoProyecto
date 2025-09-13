@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TrabajoProyecto.Data;
 using TrabajoProyecto.Models;
 
@@ -6,6 +7,7 @@ namespace TrabajoProyecto.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class ClubController : ControllerBase
     {
         private readonly ClubDb _db;
@@ -25,7 +27,6 @@ namespace TrabajoProyecto.Controllers
             }
             catch (Exception ex)
             {
-                // Devolver un 500 Internal Server Error si hay un problema
                 return StatusCode(500, $"Error interno del servidor: {ex.Message}");
             }
         }
@@ -38,7 +39,6 @@ namespace TrabajoProyecto.Controllers
                 var club = await _db.GetByIdAsync(id);
                 if (club == null)
                 {
-                    // Devolver un 404 si el club no se encuentra
                     return NotFound($"Club con ID {id} no encontrado.");
                 }
                 return Ok(club);
@@ -61,7 +61,6 @@ namespace TrabajoProyecto.Controllers
 
                 await _db.AddAsync(c);
 
-                // Devolver un 201 Created para indicar éxito en la creación
                 return CreatedAtAction(nameof(Get), new { id = c.ClubId }, c);
             }
             catch (Exception ex)
@@ -75,22 +74,20 @@ namespace TrabajoProyecto.Controllers
         {
             try
             {
-                if (c == null || id != c.ClubId)
+                // Corrected line: removed the check for c.ClubId
+                if (c == null)
                 {
-                    // Devolver un 400 Bad Request si los datos son incorrectos
                     return BadRequest("Datos de club inválidos.");
                 }
 
                 var existingClub = await _db.GetByIdAsync(id);
                 if (existingClub == null)
                 {
-                    // Devolver un 404 si el club no existe para actualizar
                     return NotFound($"Club con ID {id} no encontrado para actualizar.");
                 }
 
                 await _db.UpdateAsync(id, c);
 
-                // Devolver un 204 No Content para una actualización exitosa sin contenido
                 return NoContent();
             }
             catch (Exception ex)
@@ -107,13 +104,11 @@ namespace TrabajoProyecto.Controllers
                 var existingClub = await _db.GetByIdAsync(id);
                 if (existingClub == null)
                 {
-                    // Devolver un 404 si el club no existe para eliminar
                     return NotFound($"Club con ID {id} no encontrado para eliminar.");
                 }
 
                 await _db.DeleteAsync(id);
 
-                // Devolver un 204 No Content para una eliminación exitosa
                 return NoContent();
             }
             catch (Exception ex)

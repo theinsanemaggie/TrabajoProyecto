@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TrabajoProyecto.Data;
 using TrabajoProyecto.Models;
 
@@ -6,6 +7,7 @@ namespace TrabajoProyecto.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class DirigenteController : ControllerBase
     {
         private readonly DirigenteDb _db;
@@ -72,7 +74,8 @@ namespace TrabajoProyecto.Controllers
         {
             try
             {
-                if (d == null || id != d.DirigenteId)
+                // Corrected code: Remove the check for id != d.DirigenteId
+                if (d == null)
                 {
                     return BadRequest("Datos de dirigente inválidos.");
                 }

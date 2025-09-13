@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "Club Atletico River Plate",
+    "cantidadSocios": 120000,
+    "cantidadTitulos": 70,
+    "fechaFundacion": "1901-05-25T00:00:00Z",
+    "ubicacionEstadio": "Avenida Figueroa Alcorta 7597",
+    "nombreEstadio": "Estadio Monumental Antonio Vespucio Liberti"
+  },
+  {
+    "nombre": "Boca Juniors",
+    "cantidadSocios": 100000,
+    "cantidadTitulos": 60,
+    "fechaFundacion": "1905-04-03T00:00:00Z",
+    "ubicacionEstadio": "Brandsen 805, La Boca, CABA",
+    "nombreEstadio": "Estadio Alberto J. Armando (La Bombonera)"
+  },
+  {
+    "nombre": "Racing Club",
+    "cantidadSocios": 85000,
+    "cantidadTitulos": 38,
+    "fechaFundacion": "1903-03-25T00:00:00Z",
+    "ubicacionEstadio": "Pasaje Mozart y Corbatta, Avellaneda",
+    "nombreEstadio": "Estadio Presidente Juan Domingo Peron"
+  },
+  {
+    "nombre": "Independiente",
+    "cantidadSocios": 90000,
+    "cantidadTitulos": 45,
+    "fechaFundacion": "1905-01-01T00:00:00Z",
+    "ubicacionEstadio": "Ricardo Bochini 1000, Avellaneda",
+    "nombreEstadio": "Estadio Libertadores de America - Ricardo Enrique Bochini"
+  },
+  {
+    "nombre": "San Lorenzo de Almagro",
+    "cantidadSocios": 75000,
+    "cantidadTitulos": 22,
+    "fechaFundacion": "1908-04-01T00:00:00Z",
+    "ubicacionEstadio": "Avenida Perito Moreno, CABA",
+    "nombreEstadio": "Estadio Pedro Bidegain"
+  }
+]

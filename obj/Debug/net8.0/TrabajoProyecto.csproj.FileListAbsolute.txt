@@ -177,3 +177,5 @@ C:\Users\magal\source\repos\TrabajoProyecto\bin\Debug\net8.0\tr\Microsoft.CodeAn
 C:\Users\magal\source\repos\TrabajoProyecto\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\magal\source\repos\TrabajoProyecto\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\magal\source\repos\TrabajoProyecto\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\magal\source\repos\TrabajoProyecto\bin\Debug\net8.0\JsonTest\Club.json
+C:\Users\magal\source\repos\TrabajoProyecto\bin\Debug\net8.0\JsonTest\Socios.json
