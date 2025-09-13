@@ -48,3 +48,9 @@
 - Pruebas: Swagger claro y, si es posible, pruebas manuales automapeadas (colección Postman).
 - Calidad: código limpio, README claro, convenciones REST.
 - Bonus (opcionales): - Filtros/paginación en GET (?q=, ?page=, ?pageSize=). - Borrado lógico (IsActive) en lugar de DELETE. - Validaciones con FluentValidation. - Mapeos con AutoMapper.
+
+# Descarga del proyecto
+1. Clonar repositorio en el dispositivo local.
+2. Crear base de datos en SQL con el script proporcionado en /Bdd/QueryBDD.sql.
+3. Modificar ruta de la base de datos en la línea 3 del appsettings.json ("DefaultConnection": "tuconección").
+4. Bonus: en la carpeta JsonTest se proporcionan 3 archivos JSON para realizar pruebas en el CRUD.
