@@ -18,102 +18,98 @@ namespace TrabajoProyecto.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<ActionResult<IEnumerable<Dirigente>>> GetAll()
         {
             try
             {
                 var dirigentes = await _db.GetAllAsync();
+                if (dirigentes == null || dirigentes.Count == 0)
+                    return NotFound(new ErrorResponse { ErrorCode = "404", Message = "No se encontraron dirigentes." });
+
                 return Ok(dirigentes);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+                return StatusCode(500, new ErrorResponse { ErrorCode = "500", Message = $"Error interno: {ex.Message}" });
             }
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<ActionResult<Dirigente>> Get(int id)
         {
             try
             {
                 var dirigente = await _db.GetByIdAsync(id);
                 if (dirigente == null)
-                {
-                    return NotFound($"Dirigente con ID {id} no encontrado.");
-                }
+                    return NotFound(new ErrorResponse { ErrorCode = "404", Message = $"Dirigente con ID {id} no encontrado." });
+
                 return Ok(dirigente);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+                return StatusCode(500, new ErrorResponse { ErrorCode = "500", Message = $"Error interno: {ex.Message}" });
             }
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add([FromBody] Dirigente d)
+        public async Task<ActionResult<Response>> Add([FromBody] Dirigente d)
         {
             try
             {
                 if (d == null)
-                {
-                    return BadRequest("El objeto Dirigente es nulo.");
-                }
+                    return BadRequest(new ErrorResponse { ErrorCode = "400", Message = "El objeto Dirigente es nulo." });
+
+                if (d.Dni <= 0)
+                    return BadRequest(new ErrorResponse { ErrorCode = "400", Message = "El DNI debe ser válido." });
 
                 await _db.AddAsync(d);
 
-                return CreatedAtAction(nameof(Get), new { id = d.DirigenteId }, d);
+                return Ok(new Response { Code = "201", Message = "Dirigente creado correctamente." });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+                return StatusCode(500, new ErrorResponse { ErrorCode = "500", Message = $"Error interno: {ex.Message}" });
             }
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] Dirigente d)
+        public async Task<ActionResult<Response>> Update(int id, [FromBody] Dirigente d)
         {
             try
             {
-                // Corrected code: Remove the check for id != d.DirigenteId
                 if (d == null)
-                {
-                    return BadRequest("Datos de dirigente inválidos.");
-                }
+                    return BadRequest(new ErrorResponse { ErrorCode = "400", Message = "Datos de dirigente inválidos." });
 
                 var existingDirigente = await _db.GetByIdAsync(id);
                 if (existingDirigente == null)
-                {
-                    return NotFound($"Dirigente con ID {id} no encontrado para actualizar.");
-                }
+                    return NotFound(new ErrorResponse { ErrorCode = "404", Message = $"Dirigente con ID {id} no encontrado." });
 
                 await _db.UpdateAsync(id, d);
 
-                return NoContent();
+                return Ok(new Response { Code = "200", Message = "Dirigente actualizado correctamente." });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+                return StatusCode(500, new ErrorResponse { ErrorCode = "500", Message = $"Error interno: {ex.Message}" });
             }
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<ActionResult<Response>> Delete(int id)
         {
             try
             {
                 var existingDirigente = await _db.GetByIdAsync(id);
                 if (existingDirigente == null)
-                {
-                    return NotFound($"Dirigente con ID {id} no encontrado para eliminar.");
-                }
+                    return NotFound(new ErrorResponse { ErrorCode = "404", Message = $"Dirigente con ID {id} no encontrado." });
 
                 await _db.DeleteAsync(id);
 
-                return NoContent();
+                return Ok(new Response { Code = "200", Message = "Dirigente eliminado correctamente." });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+                return StatusCode(500, new ErrorResponse { ErrorCode = "500", Message = $"Error interno: {ex.Message}" });
             }
         }
     }

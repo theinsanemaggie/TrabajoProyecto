@@ -18,102 +18,101 @@ namespace TrabajoProyecto.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<ActionResult<IEnumerable<Socio>>> GetAll()
         {
             try
             {
                 var socios = await _db.GetAllAsync();
+                if (socios == null || socios.Count == 0)
+                    return NotFound(new ErrorResponse { ErrorCode = "404", Message = "No se encontraron socios." });
+
                 return Ok(socios);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+                return StatusCode(500, new ErrorResponse { ErrorCode = "500", Message = $"Error interno: {ex.Message}" });
             }
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<ActionResult<Socio>> Get(int id)
         {
             try
             {
                 var socio = await _db.GetByIdAsync(id);
                 if (socio == null)
-                {
-                    return NotFound($"Socio con ID {id} no encontrado.");
-                }
+                    return NotFound(new ErrorResponse { ErrorCode = "404", Message = $"Socio con ID {id} no encontrado." });
+
                 return Ok(socio);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+                return StatusCode(500, new ErrorResponse { ErrorCode = "500", Message = $"Error interno: {ex.Message}" });
             }
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add([FromBody] Socio s)
+        public async Task<ActionResult<Response>> Add([FromBody] Socio s)
         {
             try
             {
                 if (s == null)
-                {
-                    return BadRequest("El objeto Socio es nulo.");
-                }
+                    return BadRequest(new ErrorResponse { ErrorCode = "400", Message = "El objeto Socio es nulo." });
+
+                if (s.FechaAsociado < s.FechaNacimiento)
+                    return BadRequest(new ErrorResponse { ErrorCode = "400", Message = "La fecha de asociación no puede ser anterior al nacimiento." });
+
+                if (s.CantidadAsistencias < 0)
+                    return BadRequest(new ErrorResponse { ErrorCode = "400", Message = "Cantidad de asistencias no puede ser negativa." });
 
                 await _db.AddAsync(s);
 
-                return CreatedAtAction(nameof(Get), new { id = s.SocioId }, s);
+                return Ok(new Response { Code = "201", Message = "Socio creado correctamente." });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+                return StatusCode(500, new ErrorResponse { ErrorCode = "500", Message = $"Error interno: {ex.Message}" });
             }
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] Socio s)
+        public async Task<ActionResult<Response>> Update(int id, [FromBody] Socio s)
         {
             try
             {
-                // The fix is here. You only need to check if the body is null.
                 if (s == null)
-                {
-                    return BadRequest("Datos de socio inválidos.");
-                }
+                    return BadRequest(new ErrorResponse { ErrorCode = "400", Message = "Datos de socio inválidos." });
 
                 var existingSocio = await _db.GetByIdAsync(id);
                 if (existingSocio == null)
-                {
-                    return NotFound($"Socio con ID {id} no encontrado para actualizar.");
-                }
+                    return NotFound(new ErrorResponse { ErrorCode = "404", Message = $"Socio con ID {id} no encontrado." });
 
                 await _db.UpdateAsync(id, s);
 
-                return NoContent();
+                return Ok(new Response { Code = "200", Message = "Socio actualizado correctamente." });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+                return StatusCode(500, new ErrorResponse { ErrorCode = "500", Message = $"Error interno: {ex.Message}" });
             }
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<ActionResult<Response>> Delete(int id)
         {
             try
             {
                 var existingSocio = await _db.GetByIdAsync(id);
                 if (existingSocio == null)
-                {
-                    return NotFound($"Socio con ID {id} no encontrado para eliminar.");
-                }
+                    return NotFound(new ErrorResponse { ErrorCode = "404", Message = $"Socio con ID {id} no encontrado." });
 
                 await _db.DeleteAsync(id);
 
-                return NoContent();
+                return Ok(new Response { Code = "200", Message = "Socio eliminado correctamente." });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+                return StatusCode(500, new ErrorResponse { ErrorCode = "500", Message = $"Error interno: {ex.Message}" });
             }
         }
     }
